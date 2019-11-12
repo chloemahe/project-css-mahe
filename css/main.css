@@ -1,0 +1,30 @@
+header, footer{
+  background-color: pink;
+}
+
+nav li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+@media (min-width: 768px){
+  nav li{
+    display: inline-block;
+  }
+}
+
+section{
+  background-color: blue;
+  background-image: url("images/paysage.jpg");
+}
