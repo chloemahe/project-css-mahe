@@ -1,5 +1,29 @@
+/*------------------------INDEX------------------------*/
+*{
+  box-sizing: border-box;
+}
+
 header, footer{
-  background-color: pink;
+  background-color: white;
+  font-size: 16px;
+}
+header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+}
+
+header .logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 
 nav li{
@@ -24,7 +48,154 @@ a:hover{
   }
 }
 
-section{
+/*---------HERO---------*/
+
+.hero{
   background-color: blue;
   background-image: url("images/paysage.jpg");
+  background-size: cover;
+  padding: 18% 10%;
+}
+
+h1, .hero_txt{
+  color: white;
+  text-align: center;
+}
+
+h1{
+  padding-bottom: 2%;
+  font-weight: 500;
+}
+
+.hero_txt{
+  line-height: 150%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/*---------ABOUT---------*/
+
+h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+.hero_txt{
+  font-size: 20px;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+
+.about .about_content{
+  line-height: 135%;
+  columns: 3;
+  column-gap: 6%;
+}
+
+.about p{
+  color: grey;
+}
+
+/*---------GALLERY---------*/
+
+.img_list, .img_file {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img{
+width: 25%;
+box-sizing: border-box;
+padding: 1%;
+}
+
+.img img{
+  width: 100%;
+  border-radius: 2px;
+}
+
+.content{
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+}
+
+.gallery .content{
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+padding: 24px 64px;
+margin-top: 2%;
+border-radius: 4px;
+display: inline-block;
+background-color: #202020;
+color: white;
+align-self: center;
+}
+
+.button:hover{
+  text-decoration: none;
+  background-color: black;
+}
+
+/*------------------------GORILLA LIST------------------------*/
+
+.list .content h1{
+  color: black;
+  font-size: 50px;
+  padding: 4%;
+}
+
+.list .content{
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  background-color: white;
+  border-radius: 4px;
+  max-width: 24%;
+  padding: 2%;
+  margin: .5% 0;
+  border : 1.5px solid #E5E5E5;
+}
+
+.item img{
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 8%;
+}
+
+.description{
+  padding-top: 6%;
+  line-height: 125%;
+  color: grey;
+  clear: both;
+}
+
+.button_list{
+  padding: 18px 64px;
+  margin-top: 8%;
+  border-radius: 4px;
+  background-color: #202020;
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+.button_list:hover{
+  text-decoration: none;
+  background-color: black;
 }
