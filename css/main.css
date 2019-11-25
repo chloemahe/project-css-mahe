@@ -48,6 +48,10 @@ a:hover{
   }
 }
 
+footer{
+  clear: both;
+}
+
 /*---------HERO---------*/
 
 .hero{
@@ -80,7 +84,6 @@ h2{
   font-size: 36px;
   font-weight: 500;
   padding-top: 8%;
-  padding-bottom: 4%;
 }
 
 .hero_txt{
@@ -97,6 +100,7 @@ h3{
   line-height: 135%;
   columns: 3;
   column-gap: 6%;
+  padding-top: 4%;
 }
 
 .about p{
@@ -109,6 +113,10 @@ h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.img_list{
+  padding-top: 4%;
 }
 
 .img{
@@ -198,4 +206,89 @@ align-self: center;
 .button_list:hover{
   text-decoration: none;
   background-color: black;
+}
+
+/*------------------------GORILLA------------------------*/
+
+/*---------HERO---------*/
+
+.hero_gorilla{
+  background-color: blue;
+  background-image: url("images/jungle.jpg");
+  background-size: cover;
+  padding: 15% 10%;
+}
+
+.title_hero_txt{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 2%;
+  font-weight: 500;
+}
+
+/*---------Section Probiscis---------*/
+
+
+.probiscis_img{
+  float: left;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-right: 8%;
+  border-radius: 2px;
+}
+
+.section1{
+  padding-top: 4%;
+  display: flex;
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+}
+
+.h2_probiscis{
+  text-align: left;
+font-size: 36px;
+font-weight: 500;
+padding-top: 8%;
+}
+
+.section1_txt{
+  padding: 6%;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.gorilla_text{
+  padding-top: 2%;
+  padding-bottom: 4%;
+  line-height: 145%;
+  color: grey;
+  /* text-align: center; */
+}
+
+/*---------Section---------*/
+
+.gorilla_content{
+  clear: both;
+  line-height: 135%;
+  columns: 4;
+  column-gap: 6%;
+  padding-top: 4%;
+}
+
+/*---------IMGS---------*/
+
+
+.monkey{
+  width: 1200px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 8%;
+  padding-top: 1%;
+}
+
+.img_gorillas{
+  padding-top: 4%;
 }
