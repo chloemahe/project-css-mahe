@@ -25,13 +25,6 @@ header .logo img{
   object-fit: cover;
 }
 
-nav ul {
-  display: flex;
-}
-nav li{
-  padding: 20px;
-}
-
 a{
   text-decoration: none;
   color: black;
